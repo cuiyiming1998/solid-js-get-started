@@ -9,7 +9,7 @@ function createSignal(value) {
 		return value
 	}
 
-	function write(newValue) {
+	function write(newValue, b) {
 		// 触发依赖
 		// 通过遍历去调用
 		value = newValue
